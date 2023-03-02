@@ -14,3 +14,42 @@
 * {
   font-family: "DM Sans";
 }
+
+nav.navbar {
+  background: #fbfafb;
+  box-shadow: 0px 4px 16px rgba(166, 159, 249, 0.25);
+}
+
+nav.navbar .nav-link {
+  font-family: DM-Sans-Medium;
+  font-size: 18px;
+  line-height: 24px;
+  color: #170f49;
+}
+
+nav.navbar .dropdown-toggle::after {
+  width: 9px;
+  height: 9px;
+  border-top: 2.5px solid #170f49;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 2.5px solid #170f49;
+  transform: rotate(225deg);
+}
+
+nav.navbar .cart-btn {
+  width: 39.98px;
+  height: 40px;
+  border: 1px solid #4a3aff;
+  border-radius: 6px;
+}
+nav.navbar .sign-up-btn {
+  font-family: DM-Sans-Medium;
+  width: 114px;
+  height: 44px;
+  background: #4a3aff;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
