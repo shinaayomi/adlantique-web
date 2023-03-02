@@ -43,6 +43,7 @@ nav.navbar .cart-btn {
   border: 1px solid #4a3aff;
   border-radius: 6px;
 }
+
 nav.navbar .sign-up-btn {
   font-family: DM-Sans-Medium;
   width: 114px;
@@ -52,4 +53,10 @@ nav.navbar .sign-up-btn {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
+}
+
+.heroWrapper h1 {
+  font-size: 64px;
+  line-height: 72px;
+  color: #170f49;
 }
