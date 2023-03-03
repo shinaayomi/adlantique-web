@@ -160,7 +160,7 @@ nav.navbar .sign-up-btn {
 .price-section {
   background: rgba(241, 239, 255, 0.6);
   border-radius: 26px;
-  padding: 54px;
+  padding: 54px 40px;
 }
 
 .price-section .price-card h2 {
