@@ -207,3 +207,10 @@ nav.navbar .sign-up-btn {
   }
 }
 /* ### Tablet and Mobile view ### */
+
+@media (min-width: 992px) {
+  .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
