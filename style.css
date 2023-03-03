@@ -210,7 +210,7 @@ nav.navbar .sign-up-btn {
 
 @media (min-width: 992px) {
   .container-fluid {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
