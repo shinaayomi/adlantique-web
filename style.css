@@ -157,8 +157,53 @@ nav.navbar .sign-up-btn {
   border-radius: 8px;
 }
 
+.price-section {
+  background: rgba(241, 239, 255, 0.6);
+  border-radius: 26px;
+  padding: 54px;
+}
+
+.price-section .price-card h2 {
+  font-family: DM-Sans-Bold;
+  font-size: 32px;
+  line-height: 48px;
+  color: #170f49;
+}
+
+.price-section .price-card h2 span {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6f6c90;
+}
+
+.price-section .price-card h4 {
+  font-family: DM-Sans-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  color: #170f49;
+}
+
+.price-section .price-card p {
+  color: #6f6c90;
+}
+
+.price-section .price-card .add-cart {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #4a3aff;
+  border-radius: 12px;
+  color: #4a3aff;
+  margin: 16px 0 24px;
+}
+
+/* Tablet and Mobile view */
+
 @media screen and (max-width: 768px) {
   .heroWrapper {
     padding: 120px 0;
   }
+  .price-section {
+    padding: 20px;
+  }
 }
+/* ### Tablet and Mobile view ### */
