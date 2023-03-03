@@ -196,6 +196,25 @@ nav.navbar .sign-up-btn {
   margin: 16px 0 24px;
 }
 
+.price-section .price-card ul {
+  list-style: none;
+}
+
+.price-section .price-card li {
+  color: #6f6c90;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.price-section .price-card li::before {
+  content: url("https://res.cloudinary.com/dcjqodsyg/image/upload/v1677857415/Vector_cgogp7.svg");
+  position: absolute;
+  left: -31px;
+  top: 3px;
+
+  /* margin-right: 20px; */
+}
+
 /* Tablet and Mobile view */
 
 @media screen and (max-width: 768px) {
