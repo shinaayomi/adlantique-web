@@ -55,8 +55,59 @@ nav.navbar .sign-up-btn {
   color: #ffffff;
 }
 
+.heroWrapper {
+  padding-top: 180px;
+}
+
+.heroWrapper .what-we-do {
+  font-family: DM-Sans-Bold;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4a3aff;
+}
+
 .heroWrapper h1 {
+  font-family: DM-Sans-Bold;
   font-size: 64px;
   line-height: 72px;
   color: #170f49;
+}
+.heroWrapper h1 span {
+  font-family: DM-Sans-Bold;
+  color: #4a3aff;
+}
+
+.heroWrapper .texts {
+  font-size: 24px;
+  line-height: 32px;
+  color: #6f6c90;
+}
+
+.heroWrapper .get-started {
+  width: 153px;
+  height: 56px;
+  font-family: DM-Sans-Medium;
+  background: #4a3aff;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.heroWrapper .suspend-content {
+  position: absolute;
+  bottom: 0;
+  padding: 26px 18px;
+}
+.heroWrapper .suspend-content h4 {
+  font-family: DM-Sans-Medium;
+  font-size: 23.1027px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .heroWrapper {
+    padding-top: 120px;
+  }
 }
