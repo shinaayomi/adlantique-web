@@ -15,6 +15,8 @@
   font-family: "DM Sans";
 }
 
+/* Navbar start */
+
 nav.navbar {
   background: #fbfafb;
   box-shadow: 0px 4px 16px rgba(166, 159, 249, 0.25);
@@ -54,6 +56,10 @@ nav.navbar .sign-up-btn {
   line-height: 24px;
   color: #ffffff;
 }
+
+/* Navbar end */
+
+/* Hero section start */
 
 .heroWrapper {
   padding: 180px 0;
@@ -106,6 +112,10 @@ nav.navbar .sign-up-btn {
   color: #ffffff;
 }
 
+/* Hero section end */
+
+/* Client section start */
+
 .clients-section p {
   font-size: 20px;
   line-height: 24px;
@@ -113,6 +123,10 @@ nav.navbar .sign-up-btn {
   color: #6f6c90;
   margin-bottom: 32px;
 }
+
+/* Client section end */
+
+/* Our Bundles start */
 
 .our-bundles-section {
   padding-top: 130px;
@@ -156,6 +170,10 @@ nav.navbar .sign-up-btn {
   color: #ffffff;
   border-radius: 8px;
 }
+
+/* Our Bundles end */
+
+/* Price section start */
 
 .price-section {
   background: rgba(241, 239, 255, 0.6);
@@ -234,6 +252,63 @@ nav.navbar .sign-up-btn {
 .price-section .price-card.active li::before {
   content: url("https://res.cloudinary.com/dcjqodsyg/image/upload/v1677857415/Vector_1_kzsjku.svg");
 }
+
+/* Price section end */
+
+/* Testimonial start */
+
+.testimonial-section {
+  padding: 120px 0;
+}
+
+.testimonial-section h1 {
+  font-family: DM-Sans-Bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+}
+
+.testimonial-section .campaign {
+  max-width: 791px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #6f6c90;
+}
+
+.testimonial-section .testimonial-card {
+  background: rgba(241, 239, 255, 0.6);
+  border-radius: 50px;
+}
+
+.testimonial-section .testimonial-card .mini-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+
+  border-radius: 15px;
+}
+
+.testimonial-section .testimonial-card .mini-card.first-card {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-section .testimonial-card .mini-card .name {
+  font-family: DM-Sans-Medium;
+  color: #170f49;
+}
+.testimonial-section .testimonial-card .mini-card .role {
+  font-size: 14px;
+  line-height: 18px;
+  color: #6f6c90;
+}
+
+/* Testimonial end */
 
 /* Tablet and Mobile view */
 
