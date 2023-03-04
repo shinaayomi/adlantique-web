@@ -308,6 +308,13 @@ nav.navbar .sign-up-btn {
   color: #6f6c90;
 }
 
+.testimonial-section .testimonial-card .quote-texts {
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #6f6c90;
+}
+
 /* Testimonial end */
 
 /* Tablet and Mobile view */
