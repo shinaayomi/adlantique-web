@@ -231,25 +231,25 @@ nav.navbar .sign-up-btn {
   top: 3px;
 }
 
-.price-section .price-card.active {
+.price-section .price-card:hover {
   background: #4a3aff;
   box-shadow: 0px 20px 38px rgba(82, 67, 194, 0.2);
   border-radius: 26px;
-  padding: 20px;
+  padding: 24px;
   position: relative;
   top: -90px;
 }
 
-.price-section .price-card.active :is(h2, h4, h2 span, p, li) {
+.price-section .price-card:hover :is(h2, h4, h2 span, p, li) {
   color: #ffffff;
 }
 
-.price-section .price-card.active .add-cart-btn {
+.price-section .price-card:hover .add-cart-btn {
   background: #ffffff;
   color: #4a3aff;
 }
 
-.price-section .price-card.active li::before {
+.price-section .price-card:hover li::before {
   content: url("https://res.cloudinary.com/dcjqodsyg/image/upload/v1677857415/Vector_1_kzsjku.svg");
 }
 
@@ -319,6 +319,76 @@ nav.navbar .sign-up-btn {
 
 /* Testimonial end */
 
+/* FAQ section start */
+
+.faq-section h1 {
+  font-family: DM-Sans-Bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.faq-section .campaign {
+  max-width: 791px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 88px;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #6f6c90;
+}
+
+.faq-section .faq-accordion {
+  background: rgba(241, 239, 255, 0.6);
+  border-radius: 50px;
+  padding: 76px 49px;
+}
+
+.faq-section .faq-accordion .accordion-button {
+  background: none;
+  font-family: DM-Sans-Bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  box-shadow: none;
+}
+
+.faq-section .faq-accordion .accordion-item {
+  background: none;
+  border: none;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+}
+
+.faq-section .faq-accordion .accordion-body {
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f6c90;
+}
+
+.faq-section .faq-accordion .accordion-button:not(.collapsed) {
+  color: #4a3aff;
+}
+
+.faq-section .faq-accordion .accordion-button::after {
+  content: "+";
+  font-size: 27px;
+  width: unset;
+  height: unset;
+  background-image: none;
+}
+
+.faq-section .faq-accordion .accordion-button:not(.collapsed)::after {
+  content: "-";
+  font-size: 27px;
+  background-image: none;
+}
+
+/* FAQ section ens */
+
 /* Tablet and Mobile view */
 
 @media screen and (max-width: 768px) {
@@ -328,8 +398,12 @@ nav.navbar .sign-up-btn {
   .price-section {
     padding: 20px;
   }
-  .price-section .price-card.active {
+  .price-section .price-card:hover {
     position: static;
+    padding: 16px;
+  }
+  .faq-section .faq-accordion {
+    padding: 25px 16px;
   }
 }
 /* ### Tablet and Mobile view ### */
