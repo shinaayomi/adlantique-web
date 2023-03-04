@@ -187,7 +187,7 @@ nav.navbar .sign-up-btn {
   color: #6f6c90;
 }
 
-.price-section .price-card .add-cart {
+.price-section .price-card .add-cart-btn {
   width: 100%;
   height: 56px;
   border: 1px solid #4a3aff;
@@ -211,8 +211,28 @@ nav.navbar .sign-up-btn {
   position: absolute;
   left: -31px;
   top: 3px;
+}
 
-  /* margin-right: 20px; */
+.price-section .price-card.active {
+  background: #4a3aff;
+  box-shadow: 0px 20px 38px rgba(82, 67, 194, 0.2);
+  border-radius: 26px;
+  padding: 20px;
+  position: relative;
+  top: -90px;
+}
+
+.price-section .price-card.active :is(h2, h4, h2 span, p, li) {
+  color: #ffffff;
+}
+
+.price-section .price-card.active .add-cart-btn {
+  background: #ffffff;
+  color: #4a3aff;
+}
+
+.price-section .price-card.active li::before {
+  content: url("https://res.cloudinary.com/dcjqodsyg/image/upload/v1677857415/Vector_1_kzsjku.svg");
 }
 
 /* Tablet and Mobile view */
@@ -223,6 +243,9 @@ nav.navbar .sign-up-btn {
   }
   .price-section {
     padding: 20px;
+  }
+  .price-section .price-card.active {
+    position: static;
   }
 }
 /* ### Tablet and Mobile view ### */
