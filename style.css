@@ -267,6 +267,7 @@ nav.navbar .sign-up-btn {
   line-height: 72px;
   text-align: center;
   color: #000000;
+  margin-bottom: 24px;
 }
 
 .testimonial-section .campaign {
@@ -277,6 +278,7 @@ nav.navbar .sign-up-btn {
   line-height: 32px;
   text-align: center;
   color: #6f6c90;
+  margin-bottom: 88px;
 }
 
 .testimonial-section .testimonial-card {
