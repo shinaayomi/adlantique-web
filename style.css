@@ -105,11 +105,36 @@ nav.navbar .sign-up-btn {
   bottom: 0;
   padding: 26px 18px;
 }
+
 .heroWrapper .suspend-content h4 {
   font-family: DM-Sans-Medium;
   font-size: 23.1027px;
   line-height: 37px;
   color: #ffffff;
+}
+
+.heroWrapper .suspend-content .placed-content {
+  position: absolute;
+  bottom: 20px;
+  width: 250px;
+  text-align: left;
+}
+
+.heroWrapper .suspend-content .btn:hover .placed-content {
+  display: none;
+}
+
+.heroWrapper .suspend-content .sub-suspended-content {
+  display: none;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 250px;
+  text-align: left;
+}
+
+.heroWrapper .suspend-content .btn:hover .sub-suspended-content {
+  display: block;
 }
 
 /* Hero section end */
