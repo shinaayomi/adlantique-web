@@ -449,9 +449,25 @@ nav.navbar .sign-up-btn {
   color: #d9dbe1;
 }
 
+.footer input {
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #d9dbe1;
+  border: none;
+}
+
+.footer input.form-control::placeholder {
+  color: #d9dbe1;
+}
+
 .footer hr {
   color: #ffffff;
   opacity: 0.1;
+  margin: 64px 0 32px;
 }
 
 /* Footer end */
