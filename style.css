@@ -291,7 +291,6 @@ nav.navbar .sign-up-btn {
   align-items: center;
   gap: 16px;
   padding: 10px 20px;
-
   border-radius: 15px;
 }
 
@@ -315,6 +314,17 @@ nav.navbar .sign-up-btn {
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #6f6c90;
+}
+
+.testimonial-section .suspended-swipe-btns {
+  position: absolute;
+  bottom: 62px;
+  left: 42%;
+}
+
+.testimonial-section .suspended-swipe-btns .btn {
+  font-size: 40px;
+  border: none;
 }
 
 /* Testimonial end */
@@ -485,6 +495,14 @@ nav.navbar .sign-up-btn {
   .price-section .price-card:hover {
     position: static;
     padding: 16px;
+  }
+  .testimonial-section .testimonial-card {
+    border-radius: 20px;
+  }
+  .testimonial-section .suspended-swipe-btns {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .faq-section .faq-accordion {
     padding: 25px 16px;
