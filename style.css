@@ -375,7 +375,7 @@ nav.navbar .sign-up-btn {
 
 .faq-section .faq-accordion .accordion-button::after {
   content: "+";
-  font-size: 27px;
+  font-size: 25px;
   width: unset;
   height: unset;
   background-image: none;
@@ -383,11 +383,67 @@ nav.navbar .sign-up-btn {
 
 .faq-section .faq-accordion .accordion-button:not(.collapsed)::after {
   content: "-";
-  font-size: 27px;
+  font-size: 25px;
   background-image: none;
 }
 
-/* FAQ section ens */
+/* FAQ section end */
+
+/* start Have Question section */
+
+.have-question {
+  background: #f1efff;
+  border-radius: 12px;
+  padding: 28px 32px;
+  gap: 25px;
+  margin: 78px 0;
+}
+
+.have-question .title {
+  font-family: DM-Sans-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4a3aff;
+}
+
+.have-question .chat-our {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6f6c90;
+  margin-bottom: 0;
+}
+
+.have-question .btn {
+  width: 158px;
+  height: 56px;
+  color: #ffffff;
+  background: #4a3aff;
+  border-radius: 12px;
+}
+
+/* end Have Question section */
+
+/* Footer start */
+
+.footer {
+  background: #170f49;
+  padding: 64px 0px;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer .nav-link {
+  color: #d9dbe1;
+}
+
+.footer hr {
+  color: #ffffff;
+  opacity: 0.1;
+}
+
+/* Footer end */
 
 /* Tablet and Mobile view */
 
@@ -404,6 +460,9 @@ nav.navbar .sign-up-btn {
   }
   .faq-section .faq-accordion {
     padding: 25px 16px;
+  }
+  .have-question .btn {
+    width: 100%;
   }
 }
 /* ### Tablet and Mobile view ### */
