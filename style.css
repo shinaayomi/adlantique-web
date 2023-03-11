@@ -532,6 +532,10 @@ nav.navbar .sign-up-btn {
   .heroWrapper {
     padding: 120px 0;
   }
+  .heroWrapper h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
   .price-section {
     padding: 20px;
   }
